@@ -1,0 +1,3 @@
+[bandit] Issue: [B102:assert_used] Use of assert detected.
+  File: app.py
+  Line: 42
