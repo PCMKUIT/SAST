@@ -1,0 +1,7 @@
+rules:
+  - id: sql-string-concat
+    message: "Potential SQL injection via string concatenation"
+    languages: [javascript]
+    severity: ERROR
+    patterns:
+      - pattern: "db.query($X + $Y)"
