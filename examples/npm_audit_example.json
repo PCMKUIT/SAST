@@ -1,0 +1,9 @@
+{
+  "advisories": {
+    "1234": {
+      "module_name": "express",
+      "severity": "high",
+      "title": "Prototype Pollution"
+    }
+  }
+}
